@@ -18,8 +18,8 @@ import time
 NOTION_API_URL = "https://api.notion.com/v1/databases/{}/query"
 NOTION_PAGE_URL = "https://api.notion.com/v1/pages/{}"
 NOTION_VERSION = "2022-06-28"
-DATABASE_ID = "28ed1606ba584aba9f3c253a0c4c683d"
-NOTION_TOKEN = "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"
+DATABASE_ID = "28ed1606ba584...."
+NOTION_TOKEN = "ntn_626958833127dj...."
 
 HEADERS = {
     "Authorization": f"Bearer {NOTION_TOKEN}",
