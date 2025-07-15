@@ -38,7 +38,7 @@ os.makedirs(diretorio_adicional, exist_ok=True)
 
 #Slack
 def enviar_mensagem_slack(mensagem):
-    webhook_url = "https://hooks.slack.com/services/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"
+    webhook_url = "https://hooks.slack.com/services..."
     slack_data = {
         "text": mensagem
     }
