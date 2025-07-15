@@ -52,7 +52,7 @@ import time
 import requests
 
 #CONFIGURAÇÃO DO SLACK
-SLACK_WEBHOOK_URL = "https://hooks.slack.com/services/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"
+SLACK_WEBHOOK_URL = "https://hooks.slack.com/..."
 
 def send_slack_alert(message):
     payload = {"text": message}
